@@ -1,0 +1,45 @@
+{
+  "name": "realtime-ai-doc-editor-backend",
+  "version": "1.0.0",
+  "description": "Backend server for realtime AI document editor",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.0",
+    "openai": "^4.20.0",
+    "redis": "^4.6.0",
+    "socket.io": "^4.7.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.0",
+    "@types/express": "^4.17.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^9.0.0",
+    "jest": "^29.5.0",
+    "socket.io-client": "^4.8.1",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "realtime",
+    "collaborative",
+    "editor",
+    "ai",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT"
+}

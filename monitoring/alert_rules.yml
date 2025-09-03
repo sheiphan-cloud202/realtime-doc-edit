@@ -1,0 +1,129 @@
+# Prometheus alerting rules for Realtime AI Document Editor
+groups:
+  - name: realtime-doc-editor-alerts
+    rules:
+      # Service availability alerts
+      - alert: ServiceDown
+        expr: up{job="realtime-doc-editor"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Realtime Document Editor service is down"
+          description: "The Realtime AI Document Editor service has been down for more than 1 minute."
+
+      # Memory usage alerts
+      - alert: HighMemoryUsage
+        expr: system_memory_heap_used / system_memory_heap_total > 0.8
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High memory usage detected"
+          description: "Memory usage is above 80% for more than 5 minutes. Current usage: {{ $value | humanizePercentage }}"
+
+      - alert: CriticalMemoryUsage
+        expr: system_memory_heap_used / system_memory_heap_total > 0.9
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Critical memory usage detected"
+          description: "Memory usage is above 90% for more than 2 minutes. Current usage: {{ $value | humanizePercentage }}"
+
+      # WebSocket connection alerts
+      - alert: HighWebSocketConnections
+        expr: websocket_connections_active > 1000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High number of WebSocket connections"
+          description: "WebSocket connections exceed 1000 for more than 5 minutes. Current: {{ $value }}"
+
+      # Document operation performance alerts
+      - alert: HighDocumentOperationLatency
+        expr: histogram_quantile(0.95, rate(document_operation_duration_bucket[5m])) > 500
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High document operation latency"
+          description: "95th percentile of document operation latency is above 500ms for more than 3 minutes. Current: {{ $value }}ms"
+
+      # AI service alerts
+      - alert: AIServiceHighLatency
+        expr: histogram_quantile(0.95, rate(ai_request_duration_bucket[5m])) > 10000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "AI service high latency"
+          description: "95th percentile of AI request latency is above 10 seconds for more than 5 minutes. Current: {{ $value }}ms"
+
+      - alert: AIServiceLowSuccessRate
+        expr: rate(ai_requests_completed[5m]) / (rate(ai_requests_completed[5m]) + rate(ai_requests_failed[5m])) < 0.9
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "AI service low success rate"
+          description: "AI service success rate is below 90% for more than 5 minutes. Current: {{ $value | humanizePercentage }}"
+
+      - alert: AIServiceDown
+        expr: rate(ai_requests_completed[5m]) + rate(ai_requests_failed[5m]) == 0
+        for: 10m
+        labels:
+          severity: critical
+        annotations:
+          summary: "AI service appears to be down"
+          description: "No AI requests have been processed for more than 10 minutes."
+
+      # Error rate alerts
+      - alert: HighErrorRate
+        expr: rate(http_errors_total[5m]) > 10
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High HTTP error rate"
+          description: "HTTP error rate is above 10 errors/second for more than 3 minutes. Current: {{ $value }}/sec"
+
+      - alert: HighWebSocketErrorRate
+        expr: rate(websocket_errors_total[5m]) > 5
+        for: 3m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High WebSocket error rate"
+          description: "WebSocket error rate is above 5 errors/second for more than 3 minutes. Current: {{ $value }}/sec"
+
+      # Redis connectivity alerts
+      - alert: RedisConnectionFailed
+        expr: redis_up == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Redis connection failed"
+          description: "Cannot connect to Redis for more than 1 minute."
+
+      # Disk space alerts (if monitoring disk usage)
+      - alert: LowDiskSpace
+        expr: (node_filesystem_avail_bytes{mountpoint="/"} / node_filesystem_size_bytes{mountpoint="/"}) < 0.1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Low disk space"
+          description: "Disk space is below 10% for more than 5 minutes. Available: {{ $value | humanizePercentage }}"
+
+      # Performance degradation alerts
+      - alert: PerformanceDegradation
+        expr: histogram_quantile(0.95, rate(http_request_duration_bucket[5m])) > 2000
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Performance degradation detected"
+          description: "95th percentile of HTTP request latency is above 2 seconds for more than 5 minutes. Current: {{ $value }}ms"

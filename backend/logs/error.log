@@ -1,0 +1,2 @@
+{"timestamp":"2025-08-29T22:14:23.001Z","level":"ERROR","message":"Failed to start server","metadata":{"error":""},"error":""}
+{"timestamp":"2025-08-29T22:49:50.688Z","level":"ERROR","message":"Failed to start server","metadata":{"error":"aiProcessingQueue.initialize is not a function"},"error":"aiProcessingQueue.initialize is not a function"}

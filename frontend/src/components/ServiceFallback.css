@@ -1,0 +1,187 @@
+.service-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+  margin: 16px 0;
+}
+
+.service-fallback-content {
+  max-width: 400px;
+  text-align: center;
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-fallback-icon {
+  font-size: 32px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.service-fallback-icon.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.service-fallback-title {
+  color: #495057;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 0;
+}
+
+.service-fallback-message {
+  color: #6c757d;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.service-fallback-retry-info {
+  color: #868e96;
+  font-size: 12px;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.service-fallback-custom-content {
+  margin: 16px 0;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+}
+
+.service-fallback-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.service-fallback-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 100px;
+}
+
+.service-fallback-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.service-fallback-button-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.service-fallback-button-primary:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.service-fallback-button-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.service-fallback-button-secondary:hover:not(:disabled) {
+  background-color: #545b62;
+}
+
+.service-fallback-error-details {
+  text-align: left;
+  margin-top: 16px;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+.service-fallback-error-details summary {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #e9ecef;
+  border-radius: 6px 6px 0 0;
+  user-select: none;
+}
+
+.service-fallback-error-details summary:hover {
+  background-color: #dee2e6;
+}
+
+.service-fallback-error-info {
+  padding: 12px;
+}
+
+.service-fallback-error-info p {
+  margin: 4px 0;
+  font-size: 12px;
+}
+
+.service-fallback-stack {
+  background-color: #f1f3f4;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 10px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-all;
+  margin: 8px 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .service-fallback {
+    padding: 10px;
+    min-height: 150px;
+  }
+
+  .service-fallback-content {
+    padding: 20px;
+  }
+
+  .service-fallback-title {
+    font-size: 16px;
+  }
+
+  .service-fallback-message {
+    font-size: 13px;
+  }
+
+  .service-fallback-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-fallback-button {
+    width: 100%;
+    max-width: 200px;
+  }
+}

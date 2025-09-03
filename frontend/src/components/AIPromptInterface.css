@@ -1,0 +1,358 @@
+.ai-prompt-interface {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ai-prompt-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.ai-prompt-modal {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 600px;
+  width: 90vw;
+  max-height: 80vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.ai-prompt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.ai-prompt-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.ai-prompt-close {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #6b7280;
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ai-prompt-close:hover {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.ai-prompt-content {
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.selected-text-info {
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f3f4f6;
+  border-radius: 6px;
+  border-left: 4px solid #3b82f6;
+}
+
+.selected-text-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.selected-text-preview {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.ai-prompt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.prompt-input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.prompt-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.prompt-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 80px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.prompt-textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.prompt-textarea:disabled {
+  background: #f9fafb;
+  color: #6b7280;
+  cursor: not-allowed;
+}
+
+.prompt-hint {
+  font-size: 12px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.ai-prompt-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.ai-button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+}
+
+.ai-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.ai-button-primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.ai-button-primary:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.ai-button-secondary {
+  background: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.ai-button-secondary:hover:not(:disabled) {
+  background: #e5e7eb;
+}
+
+.ai-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* AI Preview Section */
+.ai-preview-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ai-preview-header h4 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.ai-preview-prompt {
+  font-size: 14px;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.ai-preview-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* Diff View */
+.diff-view {
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.diff-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.diff-section {
+  padding: 16px;
+}
+
+.diff-section:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.diff-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.diff-original {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #374151;
+  background: #fef2f2;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #ef4444;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.diff-modified {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #374151;
+  background: #f0fdf4;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #22c55e;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.diff-unchanged {
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #374151;
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #6b7280;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Error State */
+.ai-error {
+  text-align: center;
+  padding: 20px;
+}
+
+.ai-error-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #dc2626;
+  margin-bottom: 8px;
+}
+
+.ai-error-message {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.ai-error-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .ai-prompt-modal {
+    width: 95vw;
+    max-height: 90vh;
+  }
+  
+  .ai-prompt-content {
+    padding: 16px;
+  }
+  
+  .ai-prompt-actions,
+  .ai-preview-actions {
+    flex-direction: column;
+  }
+  
+  .ai-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .diff-container {
+    font-size: 12px;
+  }
+}

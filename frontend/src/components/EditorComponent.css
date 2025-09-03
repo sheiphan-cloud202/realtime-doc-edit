@@ -1,0 +1,93 @@
+.editor-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #e1e5e9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.editor-container .monaco-editor {
+  border-radius: 4px;
+}
+
+.selection-info {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: monospace;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+/* Highlight selected text for AI editing */
+.ai-selection-highlight {
+  background-color: rgba(255, 193, 7, 0.3) !important;
+  border: 1px solid #ffc107;
+  border-radius: 2px;
+}
+
+/* Loading indicator for AI processing */
+.ai-processing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1001;
+}
+
+.ai-processing-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #007acc;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Collaborator cursor styles */
+.collaborator-cursor {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background-color: #007acc;
+  z-index: 999;
+  pointer-events: none;
+}
+
+.collaborator-cursor::after {
+  content: attr(data-user-name);
+  position: absolute;
+  top: -25px;
+  left: 0;
+  background: #007acc;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 11px;
+  white-space: nowrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Selection highlight for other users */
+.collaborator-selection {
+  background-color: rgba(0, 122, 204, 0.2);
+  border: 1px solid rgba(0, 122, 204, 0.4);
+  border-radius: 2px;
+  pointer-events: none;
+}

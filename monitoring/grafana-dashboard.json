@@ -1,0 +1,178 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Realtime AI Document Editor - System Monitoring",
+    "tags": ["realtime", "ai", "document-editor"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "System Health Overview",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "up{job=\"realtime-doc-editor\"}",
+            "legendFormat": "Service Status"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "green", "value": 1}
+              ]
+            }
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0}
+      },
+      {
+        "id": 2,
+        "title": "Memory Usage",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "system_memory_heap_used",
+            "legendFormat": "Heap Used"
+          },
+          {
+            "expr": "system_memory_heap_total",
+            "legendFormat": "Heap Total"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "bytes"
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0}
+      },
+      {
+        "id": 3,
+        "title": "WebSocket Connections",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "websocket_connections_active",
+            "legendFormat": "Active Connections"
+          },
+          {
+            "expr": "websocket_connections_total",
+            "legendFormat": "Total Connections"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}
+      },
+      {
+        "id": 4,
+        "title": "Document Operations Rate",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "rate(document_operations_total[5m])",
+            "legendFormat": "Operations/sec"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}
+      },
+      {
+        "id": 5,
+        "title": "AI Request Performance",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(ai_request_duration_bucket[5m]))",
+            "legendFormat": "95th Percentile"
+          },
+          {
+            "expr": "histogram_quantile(0.50, rate(ai_request_duration_bucket[5m]))",
+            "legendFormat": "50th Percentile"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "ms"
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 16}
+      },
+      {
+        "id": 6,
+        "title": "AI Success Rate",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "rate(ai_requests_completed[5m]) / (rate(ai_requests_completed[5m]) + rate(ai_requests_failed[5m])) * 100",
+            "legendFormat": "Success Rate"
+          }
+        ],
+        "fieldConfig": {
+          "defaults": {
+            "unit": "percent",
+            "thresholds": {
+              "steps": [
+                {"color": "red", "value": 0},
+                {"color": "yellow", "value": 80},
+                {"color": "green", "value": 95}
+              ]
+            }
+          }
+        },
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 16}
+      },
+      {
+        "id": 7,
+        "title": "HTTP Request Latency",
+        "type": "heatmap",
+        "targets": [
+          {
+            "expr": "rate(http_request_duration_bucket[5m])",
+            "legendFormat": "{{le}}"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 24, "x": 0, "y": 24}
+      },
+      {
+        "id": 8,
+        "title": "Error Rate",
+        "type": "timeseries",
+        "targets": [
+          {
+            "expr": "rate(http_errors_total[5m])",
+            "legendFormat": "HTTP Errors/sec"
+          },
+          {
+            "expr": "rate(websocket_errors_total[5m])",
+            "legendFormat": "WebSocket Errors/sec"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 32}
+      },
+      {
+        "id": 9,
+        "title": "Active Documents and Users",
+        "type": "stat",
+        "targets": [
+          {
+            "expr": "documents_active",
+            "legendFormat": "Active Documents"
+          },
+          {
+            "expr": "users_active",
+            "legendFormat": "Active Users"
+          }
+        ],
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 32}
+      }
+    ],
+    "time": {
+      "from": "now-1h",
+      "to": "now"
+    },
+    "refresh": "5s"
+  }
+}

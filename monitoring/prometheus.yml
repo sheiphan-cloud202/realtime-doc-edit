@@ -1,0 +1,45 @@
+# Prometheus configuration for Realtime AI Document Editor
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "alert_rules.yml"
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+          - alertmanager:9093
+
+scrape_configs:
+  # Application metrics
+  - job_name: 'realtime-doc-editor'
+    static_configs:
+      - targets: ['localhost:3001']
+    metrics_path: '/metrics'
+    params:
+      format: ['prometheus']
+    scrape_interval: 10s
+    scrape_timeout: 5s
+
+  # Health check monitoring
+  - job_name: 'realtime-doc-editor-health'
+    static_configs:
+      - targets: ['localhost:3001']
+    metrics_path: '/health'
+    scrape_interval: 30s
+    scrape_timeout: 10s
+
+  # Node.js process metrics (if using prom-client)
+  - job_name: 'nodejs-metrics'
+    static_configs:
+      - targets: ['localhost:3001']
+    metrics_path: '/metrics/nodejs'
+    scrape_interval: 15s
+
+  # Redis metrics (if Redis exporter is available)
+  - job_name: 'redis'
+    static_configs:
+      - targets: ['localhost:9121']
+    scrape_interval: 15s

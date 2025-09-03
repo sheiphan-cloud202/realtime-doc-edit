@@ -1,0 +1,567 @@
+{"timestamp":"2025-08-29T22:14:22.986Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:14:23.001Z","level":"ERROR","message":"Failed to start server","metadata":{"error":""},"error":""}
+{"timestamp":"2025-08-29T22:16:03.751Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:16:03.767Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:16:03.769Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:16:03.769Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:16:03.770Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:17:32.033Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:17:32.047Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:17:32.048Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:17:32.049Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:17:32.050Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:48:48.533Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:48:48.939Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:48:48.954Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:48:48.955Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:48:48.955Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:48:48.956Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:48:56.846Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:48:58.005Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:48:58.020Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:48:58.023Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:48:58.024Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:48:58.025Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:49:05.560Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:49:05.960Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:49:05.972Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:49:05.976Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:49:05.976Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:49:05.977Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:49:13.555Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:49:14.071Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:49:14.082Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:49:14.083Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:49:14.084Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:49:14.085Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:49:30.626Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:49:31.110Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:49:31.118Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:49:31.120Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:49:31.121Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:49:31.122Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:49:49.239Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:49:50.639Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:49:50.685Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:49:50.688Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:51:26.965Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:51:26.972Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:51:26.974Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:51:26.974Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T22:51:26.974Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:51:26.975Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:54:24.930Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:54:25.367Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:54:25.375Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:54:25.376Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:54:25.377Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T22:54:25.377Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:54:25.377Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T22:58:24.536Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T22:58:25.488Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T22:58:25.503Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T22:58:25.506Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T22:58:25.507Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T22:58:25.507Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T22:58:25.512Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:00:43.728Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:00:44.222Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:00:44.239Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:00:44.248Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:00:44.249Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:00:44.250Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:00:44.252Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:01:14.955Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:01:17.394Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:01:17.401Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:01:17.403Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:01:17.403Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:01:17.403Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:01:17.404Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:04:04.412Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:04:04.998Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:04:05.006Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:04:05.008Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:04:05.009Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:04:05.009Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:04:05.010Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:04:11.954Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:04:12.465Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:04:12.473Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:04:12.474Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:04:12.474Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:04:12.474Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:04:12.479Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:04:30.562Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:04:30.922Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:04:30.931Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:04:30.933Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:04:30.933Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:04:30.933Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:04:30.934Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:04:46.134Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:04:47.658Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:04:47.683Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:04:47.690Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:04:47.691Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:04:47.691Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:04:47.694Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:04:57.106Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:04:57.682Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:04:57.692Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:04:57.698Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:04:57.699Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:04:57.699Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:04:57.702Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:05:06.915Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:05:07.546Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:05:07.556Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:05:07.564Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:05:07.564Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:05:07.564Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:05:07.566Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:06:08.991Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:06:11.654Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:06:11.668Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:06:11.671Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:06:11.672Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:06:11.672Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:06:11.674Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:10:13.031Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:10:13.505Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:10:13.513Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:10:13.514Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:10:13.514Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:10:13.514Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:10:13.515Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:10:20.424Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:10:20.860Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:10:20.871Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:10:20.873Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:10:20.874Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:10:20.874Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:10:20.875Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:10:28.178Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:10:28.615Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:10:28.627Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:10:28.631Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:10:28.631Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:10:28.631Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:10:28.633Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:10:47.069Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:10:48.328Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:10:48.349Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:10:48.352Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:10:48.353Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:10:48.353Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:10:48.355Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:01.532Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:03.254Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:03.280Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:03.290Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:03.291Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:03.291Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:03.293Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:18.776Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:19.131Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:19.140Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:19.142Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:19.142Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:19.142Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:19.143Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:26.183Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:31.174Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:31.226Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:31.237Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:31.237Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:31.238Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:31.242Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:33.209Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:34.871Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:34.891Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:34.894Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:34.894Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:34.895Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:34.897Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:39.487Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:40.942Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:41.007Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:41.069Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:41.074Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:41.074Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:41.079Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:11:54.287Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:11:54.787Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:11:54.798Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:11:54.800Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:11:54.801Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:11:54.801Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:11:54.802Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:12:04.353Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:12:04.754Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:12:04.764Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:12:04.769Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:12:04.771Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:12:04.771Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:12:04.772Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:12:35.732Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:12:36.370Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:12:36.378Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:12:36.379Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:12:36.380Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:12:36.380Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:12:36.381Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:12:54.285Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:12:55.778Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:12:55.795Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:12:55.799Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:12:55.800Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:12:55.800Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:12:55.804Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:13:22.068Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:13:22.800Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:13:22.814Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:13:22.817Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:13:22.817Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:13:22.817Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:13:22.818Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:13:57.237Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:14:24.600Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:14:24.607Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:14:24.612Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:14:24.612Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:14:24.612Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:14:24.613Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:15:30.460Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:15:33.765Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:15:33.782Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:15:33.785Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:15:33.786Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:15:33.786Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:15:33.788Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:15:42.136Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-08-29T23:17:19.500Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:17:19.507Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:17:19.509Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:17:19.509Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:17:19.510Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:17:19.511Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-08-29T23:20:04.788Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-08-29T23:20:04.796Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-08-29T23:20:04.797Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-08-29T23:20:04.797Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-08-29T23:20:04.797Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-08-29T23:20:04.799Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-09-01T23:57:36.538Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-01T23:57:36.542Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-01T23:57:36.543Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-01T23:57:36.543Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-01T23:57:36.543Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-01T23:57:36.544Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":3001},"port":3001}
+{"timestamp":"2025-09-01T23:57:42.908Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"},"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-01T23:57:42.911Z","level":"INFO","message":"Request completed","metadata":{"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","method":"GET","url":"/health","statusCode":200,"duration":3,"userId":"anonymous"},"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","method":"GET","url":"/health","statusCode":200,"duration":3,"userId":"anonymous"}
+{"timestamp":"2025-09-01T23:57:42.912Z","level":"INFO","message":"Performance: HTTP GET /health took 4ms","metadata":{"operation":"HTTP GET /health","duration":4,"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","statusCode":200,"userId":"anonymous"},"operation":"HTTP GET /health","duration":4,"requestId":"06e4711e-6180-4d7c-add5-66ce6d6ca827","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T00:00:18.983Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:02:55.984Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:02:55.987Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:02:55.988Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:02:55.988Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:02:55.989Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:02:55.989Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:03:49.343Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"},"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T00:03:49.347Z","level":"INFO","message":"Request completed","metadata":{"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"},"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"}
+{"timestamp":"2025-09-02T00:03:49.348Z","level":"INFO","message":"Performance: HTTP GET /health took 4ms","metadata":{"operation":"HTTP GET /health","duration":4,"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","statusCode":200,"userId":"anonymous"},"operation":"HTTP GET /health","duration":4,"requestId":"2fa498f5-b238-44be-a3e2-c1b5a92dfd96","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T00:04:17.609Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:04:17.915Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:04:17.918Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:04:17.919Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:04:17.919Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:04:17.919Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:04:17.920Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:08:11.348Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:08:11.648Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:08:11.651Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:08:11.652Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:08:11.653Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:08:11.653Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:08:11.653Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:08:36.486Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:08:37.696Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:08:37.700Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:08:37.701Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:08:37.701Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:08:37.701Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:08:37.701Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:08:39.719Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:08:39.995Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:08:40.000Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:08:40.001Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:08:40.001Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:08:40.001Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:08:40.006Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:11:17.023Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:11:17.296Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:11:17.299Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:11:17.300Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:11:17.300Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:11:17.300Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:11:17.300Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:14:59.086Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:14:59.385Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:14:59.387Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:14:59.388Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:14:59.388Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:14:59.389Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:14:59.389Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:15:24.400Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:15:25.585Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:15:25.588Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:15:25.589Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:15:25.589Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:15:25.589Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:15:25.590Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:15:28.074Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:15:28.289Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:15:28.292Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:15:28.293Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:15:28.293Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:15:28.293Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:15:28.294Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:16:42.760Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:16:43.114Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:16:43.118Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:16:43.119Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:16:43.120Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:16:43.120Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:16:43.120Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:16:52.987Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:16:53.424Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:16:53.428Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:16:53.429Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:16:53.429Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:16:53.430Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:16:53.430Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:17:08.174Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:17:08.465Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:17:08.469Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:17:08.470Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:17:08.470Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:17:08.470Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:17:08.471Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:17:33.561Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:17:33.564Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:17:33.566Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:17:33.566Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:17:33.566Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:17:33.567Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:17:39.596Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:17:39.949Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:17:39.952Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:17:39.954Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:17:39.954Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:17:39.954Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:17:39.954Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:21:09.996Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:21:10.445Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:21:10.450Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:21:10.453Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:21:10.453Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:21:10.453Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:21:10.454Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:21:52.619Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:21:52.624Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:21:52.627Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:21:52.627Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:21:52.627Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:21:52.628Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:24:36.623Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:24:37.086Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:24:37.090Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:24:37.093Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:24:37.093Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:24:37.093Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:24:37.094Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:28:22.435Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:28:22.440Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:28:22.442Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:28:22.442Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:28:22.442Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:28:22.443Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:28:40.030Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:28:40.612Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:28:40.618Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:28:40.622Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:28:40.622Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:28:40.622Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:28:40.623Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:29:47.740Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:29:48.240Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:29:48.246Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:29:48.249Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:29:48.249Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:29:48.249Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:29:48.250Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:38:27.078Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:38:28.749Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:38:28.754Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:38:28.756Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:38:28.756Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:38:28.756Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:38:28.757Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:38:35.340Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:38:35.668Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:38:35.672Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:38:35.673Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:38:35.673Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:38:35.674Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:38:35.675Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:40:50.389Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:40:50.835Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:40:50.840Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:40:50.842Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:40:50.843Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:40:50.843Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:40:50.844Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:41:28.724Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:41:30.232Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:41:30.238Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:41:30.240Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:41:30.240Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:41:30.240Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:41:30.241Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:41:39.211Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:41:39.649Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:41:39.653Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:41:39.655Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:41:39.655Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:41:39.655Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:41:39.656Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:44:24.866Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:44:25.232Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:44:25.235Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:44:25.237Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:44:25.237Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:44:25.237Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:44:25.238Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:46:01.298Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:46:05.032Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:46:05.051Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:46:05.079Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:46:05.080Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:46:05.080Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:46:05.082Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T00:46:12.465Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T00:46:13.278Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T00:46:13.294Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T00:46:13.298Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T00:46:13.299Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T00:46:13.299Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T00:46:13.301Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T01:01:24.132Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T01:01:24.137Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T01:01:24.140Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T01:01:24.140Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T01:01:24.140Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T01:01:24.141Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T01:01:33.307Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"},"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:01:33.311Z","level":"INFO","message":"Request completed","metadata":{"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"},"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:01:33.312Z","level":"INFO","message":"Performance: HTTP GET /health took 5ms","metadata":{"operation":"HTTP GET /health","duration":5,"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","statusCode":200,"userId":"anonymous"},"operation":"HTTP GET /health","duration":5,"requestId":"a0787c2e-c6dd-4f41-aa32-6662d7b3b328","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:34:58.713Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T01:34:58.718Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T01:34:58.721Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T01:34:58.721Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T01:34:58.721Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T01:34:58.722Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T01:35:14.014Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"},"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","method":"GET","url":"/health","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:35:14.018Z","level":"INFO","message":"Request completed","metadata":{"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"},"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","method":"GET","url":"/health","statusCode":200,"duration":4,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:35:14.019Z","level":"INFO","message":"Performance: HTTP GET /health took 5ms","metadata":{"operation":"HTTP GET /health","duration":5,"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","statusCode":200,"userId":"anonymous"},"operation":"HTTP GET /health","duration":5,"requestId":"6ece92eb-cd27-45cc-af4f-ddc7797e1d20","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:37:36.741Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T01:37:37.152Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T01:37:37.159Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T01:37:37.161Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T01:37:37.161Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T01:37:37.162Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T01:37:37.163Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T01:38:57.565Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","method":"POST","url":"/ai/edit","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"},"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","method":"POST","url":"/ai/edit","userAgent":"curl/8.7.1","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:38:58.533Z","level":"INFO","message":"Request completed","metadata":{"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","method":"POST","url":"/ai/edit","statusCode":200,"duration":968,"userId":"anonymous"},"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","method":"POST","url":"/ai/edit","statusCode":200,"duration":968,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:38:58.535Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 970ms","metadata":{"operation":"HTTP POST /ai/edit","duration":970,"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":970,"requestId":"49e2b730-8871-4343-8472-d085b8d0c689","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:39:17.693Z","level":"INFO","message":"Received SIGTERM, starting graceful shutdown"}
+{"timestamp":"2025-09-02T01:39:18.056Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T01:39:18.060Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T01:39:18.062Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T01:39:18.062Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T01:39:18.062Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T01:39:18.063Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T01:39:44.241Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:39:45.133Z","level":"INFO","message":"Request completed","metadata":{"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","method":"POST","url":"/ai/edit","statusCode":200,"duration":893,"userId":"anonymous"},"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","method":"POST","url":"/ai/edit","statusCode":200,"duration":893,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:39:45.134Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 892ms","metadata":{"operation":"HTTP POST /ai/edit","duration":892,"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":892,"requestId":"625787e8-b7fd-4a6f-bc62-c8d99f683843","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:40:14.760Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:40:17.593Z","level":"INFO","message":"Request completed","metadata":{"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","statusCode":200,"duration":2833,"userId":"anonymous"},"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","statusCode":200,"duration":2833,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:40:17.594Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","duration":2834,"userId":"anonymous"},"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","method":"POST","url":"/ai/edit","duration":2834,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:40:17.594Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 2834ms","metadata":{"operation":"HTTP POST /ai/edit","duration":2834,"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":2834,"requestId":"8f111186-a91a-4611-9863-0cad4eaa0311","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:42:46.753Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T01:42:48.586Z","level":"INFO","message":"Request completed","metadata":{"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","statusCode":200,"duration":1833,"userId":"anonymous"},"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","statusCode":200,"duration":1833,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:42:48.586Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","duration":1833,"userId":"anonymous"},"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","method":"POST","url":"/ai/edit","duration":1833,"userId":"anonymous"}
+{"timestamp":"2025-09-02T01:42:48.586Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1833ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1833,"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1833,"requestId":"a771dacc-c4f7-4da4-bd5f-3819b18c8057","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:25:53.056Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-09-02T13:25:58.335Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-02T13:25:58.349Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-02T13:25:58.354Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-02T13:25:58.354Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-02T13:25:58.354Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-02T13:25:58.355Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-02T13:28:10.226Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T13:28:14.839Z","level":"INFO","message":"Request completed","metadata":{"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","statusCode":200,"duration":4613,"userId":"anonymous"},"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","statusCode":200,"duration":4613,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:28:14.840Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","duration":4614,"userId":"anonymous"},"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","method":"POST","url":"/ai/edit","duration":4614,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:28:14.840Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 4614ms","metadata":{"operation":"HTTP POST /ai/edit","duration":4614,"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":4614,"requestId":"f3bce443-30c8-472c-b14c-510fdbc2309f","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:29:10.877Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T13:29:12.331Z","level":"INFO","message":"Request completed","metadata":{"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","statusCode":200,"duration":1454,"userId":"anonymous"},"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","statusCode":200,"duration":1454,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:29:12.331Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","duration":1454,"userId":"anonymous"},"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","method":"POST","url":"/ai/edit","duration":1454,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:29:12.332Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1454ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1454,"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1454,"requestId":"bfc96718-30af-4545-9f20-51b4fefcd382","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:31:48.858Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T13:31:50.354Z","level":"INFO","message":"Request completed","metadata":{"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","statusCode":200,"duration":1496,"userId":"anonymous"},"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","statusCode":200,"duration":1496,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:31:50.355Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","duration":1497,"userId":"anonymous"},"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","method":"POST","url":"/ai/edit","duration":1497,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:31:50.356Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1497ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1497,"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1497,"requestId":"ec4b7506-1480-432a-b551-e10c80c40a9b","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:37:59.150Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:05.704Z","level":"INFO","message":"Request completed","metadata":{"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","statusCode":200,"duration":6554,"userId":"anonymous"},"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","statusCode":200,"duration":6554,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:05.705Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","duration":6554,"userId":"anonymous"},"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","method":"POST","url":"/ai/edit","duration":6554,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:05.706Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 6554ms","metadata":{"operation":"HTTP POST /ai/edit","duration":6554,"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":6554,"requestId":"7917d108-d57e-4faf-8cdc-2fa4bd8a3275","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:32.958Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"},"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:34.643Z","level":"INFO","message":"Request completed","metadata":{"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","statusCode":200,"duration":1685,"userId":"anonymous"},"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","statusCode":200,"duration":1685,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:34.644Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","duration":1686,"userId":"anonymous"},"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","method":"POST","url":"/ai/edit","duration":1686,"userId":"anonymous"}
+{"timestamp":"2025-09-02T13:38:34.644Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1686ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1686,"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1686,"requestId":"b93db371-3f3b-48fc-9b17-89eea6f0de49","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:22:02.521Z","level":"INFO","message":"Received SIGINT, starting graceful shutdown"}
+{"timestamp":"2025-09-03T14:27:05.489Z","level":"INFO","message":"Starting server initialization"}
+{"timestamp":"2025-09-03T14:27:05.513Z","level":"INFO","message":"DocumentManager initialized"}
+{"timestamp":"2025-09-03T14:27:05.516Z","level":"INFO","message":"UserSessionManager initialized"}
+{"timestamp":"2025-09-03T14:27:05.516Z","level":"INFO","message":"AI processing queue initialized"}
+{"timestamp":"2025-09-03T14:27:05.516Z","level":"INFO","message":"WebSocket handler initialized"}
+{"timestamp":"2025-09-03T14:27:05.517Z","level":"INFO","message":"Server running on port 3001","metadata":{"port":"3001"},"port":"3001"}
+{"timestamp":"2025-09-03T14:28:48.835Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:28:50.060Z","level":"INFO","message":"Request completed","metadata":{"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","statusCode":200,"duration":1225,"userId":"anonymous"},"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","statusCode":200,"duration":1225,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:28:50.060Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","duration":1224,"userId":"anonymous"},"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","method":"POST","url":"/ai/edit","duration":1224,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:28:50.061Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1224ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1224,"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1224,"requestId":"e4804159-99c0-4c54-8261-4bb1d46b9731","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:03.866Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:05.876Z","level":"INFO","message":"Request completed","metadata":{"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","statusCode":200,"duration":2010,"userId":"anonymous"},"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","statusCode":200,"duration":2010,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:05.877Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","duration":2010,"userId":"anonymous"},"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","method":"POST","url":"/ai/edit","duration":2010,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:05.877Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 2010ms","metadata":{"operation":"HTTP POST /ai/edit","duration":2010,"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":2010,"requestId":"9c00134c-5a3f-449e-8ecf-8f79f592cd7a","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:40.042Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:41.988Z","level":"INFO","message":"Request completed","metadata":{"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","statusCode":200,"duration":1946,"userId":"anonymous"},"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","statusCode":200,"duration":1946,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:41.989Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","duration":1946,"userId":"anonymous"},"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","method":"POST","url":"/ai/edit","duration":1946,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:29:41.989Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1946ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1946,"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1946,"requestId":"a3eec2a6-0c1e-42a7-a138-7d4123fcbb4f","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:10.053Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:11.297Z","level":"INFO","message":"Request completed","metadata":{"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","statusCode":200,"duration":1244,"userId":"anonymous"},"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","statusCode":200,"duration":1244,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:11.298Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","duration":1245,"userId":"anonymous"},"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","method":"POST","url":"/ai/edit","duration":1245,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:11.298Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1245ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1245,"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1245,"requestId":"c372a7fd-fc5f-4903-a9fc-5c1a3cf05810","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:23.463Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:26.327Z","level":"INFO","message":"Request completed","metadata":{"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","statusCode":200,"duration":2864,"userId":"anonymous"},"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","statusCode":200,"duration":2864,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:26.328Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","duration":2864,"userId":"anonymous"},"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","method":"POST","url":"/ai/edit","duration":2864,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:30:26.328Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 2864ms","metadata":{"operation":"HTTP POST /ai/edit","duration":2864,"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":2864,"requestId":"9ff7c410-f144-4d79-91cd-e0549572011f","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:03.785Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:05.582Z","level":"INFO","message":"Request completed","metadata":{"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","statusCode":200,"duration":1797,"userId":"anonymous"},"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","statusCode":200,"duration":1797,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:05.582Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","duration":1796,"userId":"anonymous"},"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","method":"POST","url":"/ai/edit","duration":1796,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:05.583Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1796ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1796,"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1796,"requestId":"a3bc82d8-214c-42e2-bb57-9e84596b3226","statusCode":200,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:41.518Z","level":"INFO","message":"Incoming request","metadata":{"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"},"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15","ip":"::1","userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:42.980Z","level":"INFO","message":"Request completed","metadata":{"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","statusCode":200,"duration":1462,"userId":"anonymous"},"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","statusCode":200,"duration":1462,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:42.981Z","level":"WARN","message":"Slow request detected","metadata":{"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","duration":1462,"userId":"anonymous"},"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","method":"POST","url":"/ai/edit","duration":1462,"userId":"anonymous"}
+{"timestamp":"2025-09-03T14:31:42.981Z","level":"INFO","message":"Performance: HTTP POST /ai/edit took 1462ms","metadata":{"operation":"HTTP POST /ai/edit","duration":1462,"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","statusCode":200,"userId":"anonymous"},"operation":"HTTP POST /ai/edit","duration":1462,"requestId":"a29f6f0f-57f8-49f4-9384-c6378b4bfabe","statusCode":200,"userId":"anonymous"}

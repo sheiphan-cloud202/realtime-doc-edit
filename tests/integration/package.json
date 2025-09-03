@@ -1,0 +1,28 @@
+{
+  "name": "realtime-ai-doc-editor-integration-tests",
+  "version": "1.0.0",
+  "description": "Integration tests for realtime AI document editor",
+  "private": true,
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "test:watch": "jest --config jest.config.js --watch",
+    "test:coverage": "jest --config jest.config.js --coverage",
+    "test:workflows": "jest --config jest.config.js user-workflows.test.ts",
+    "test:multi-user": "jest --config jest.config.js multi-user-scenarios.test.ts",
+    "test:network": "jest --config jest.config.js network-failure-recovery.test.ts",
+    "test:performance": "jest --config jest.config.js performance-benchmarks.test.ts"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.5.0",
+    "redis": "^4.6.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}

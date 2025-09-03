@@ -1,0 +1,367 @@
+/* History Navigator Styles */
+
+.history-navigator {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  user-select: none;
+}
+
+.history-navigator:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Main Controls */
+.history-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.history-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #495057;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.history-btn:hover:not(.disabled) {
+  background: #e9ecef;
+  border-color: #adb5bd;
+  transform: translateY(-1px);
+}
+
+.history-btn:active:not(.disabled) {
+  transform: translateY(0);
+  background: #dee2e6;
+}
+
+.history-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #f8f9fa;
+}
+
+.undo-btn:not(.disabled) {
+  color: #28a745;
+}
+
+.redo-btn:not(.disabled) {
+  color: #17a2b8;
+}
+
+.panel-toggle-btn.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.clear-btn {
+  color: #dc3545;
+}
+
+.clear-btn:hover:not(.disabled) {
+  background: #f8d7da;
+  border-color: #dc3545;
+}
+
+/* History Info */
+.history-info {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.history-position {
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 500;
+  padding: 4px 8px;
+  background: #e9ecef;
+  border-radius: 12px;
+  min-width: 40px;
+  text-align: center;
+}
+
+/* Tooltips */
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #343a40;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 4px;
+}
+
+.tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid transparent;
+  border-top-color: #343a40;
+}
+
+/* History Panel */
+.history-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  margin-top: 4px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.history-panel-header {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e9ecef;
+  background: #f8f9fa;
+  border-radius: 6px 6px 0 0;
+}
+
+.history-panel-header h3 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.history-stats {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+/* History List */
+.history-list {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.history-empty {
+  padding: 24px;
+  text-align: center;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.history-entry {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-bottom: 1px solid #f1f3f4;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.history-entry:hover {
+  background: #f8f9fa;
+}
+
+.history-entry:last-child {
+  border-bottom: none;
+}
+
+.history-entry.applied {
+  opacity: 1;
+}
+
+.history-entry.unapplied {
+  opacity: 0.6;
+  background: #f8f9fa;
+}
+
+.history-entry.ai-operation {
+  border-left: 3px solid #007bff;
+}
+
+.history-entry.user-operation {
+  border-left: 3px solid #28a745;
+}
+
+.history-entry-icon {
+  font-size: 16px;
+  margin-right: 12px;
+  width: 20px;
+  text-align: center;
+}
+
+.history-entry-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.history-entry-description {
+  font-size: 13px;
+  font-weight: 500;
+  color: #495057;
+  margin-bottom: 2px;
+}
+
+.history-entry-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  color: #6c757d;
+}
+
+.history-entry-time {
+  font-family: monospace;
+}
+
+.history-entry-ai-id {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 1px 4px;
+  border-radius: 2px;
+  font-family: monospace;
+}
+
+.history-entry-indicator {
+  width: 16px;
+  text-align: center;
+}
+
+.current-indicator {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* History Panel Footer */
+.history-panel-footer {
+  padding: 12px 16px;
+  border-top: 1px solid #e9ecef;
+  background: #f8f9fa;
+  border-radius: 0 0 6px 6px;
+}
+
+.clear-history-btn {
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #dc3545;
+  border-radius: 4px;
+  background: white;
+  color: #dc3545;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-history-btn:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Keyboard Shortcuts */
+.keyboard-shortcuts {
+  margin-top: 4px;
+  text-align: center;
+}
+
+.keyboard-shortcuts small {
+  color: #6c757d;
+  font-size: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .history-panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    max-width: 400px;
+    max-height: 70vh;
+  }
+  
+  .history-controls {
+    flex-wrap: wrap;
+  }
+  
+  .history-info {
+    margin-left: 0;
+    margin-right: 0;
+    order: -1;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .history-navigator {
+    background: #2d3748;
+    border-color: #4a5568;
+    color: #e2e8f0;
+  }
+  
+  .history-btn {
+    background: #4a5568;
+    border-color: #718096;
+    color: #e2e8f0;
+  }
+  
+  .history-btn:hover:not(.disabled) {
+    background: #718096;
+  }
+  
+  .history-position {
+    background: #4a5568;
+    color: #e2e8f0;
+  }
+  
+  .history-panel {
+    background: #2d3748;
+    border-color: #4a5568;
+  }
+  
+  .history-panel-header {
+    background: #1a202c;
+    border-color: #4a5568;
+  }
+  
+  .history-entry:hover {
+    background: #4a5568;
+  }
+  
+  .history-entry.unapplied {
+    background: #1a202c;
+  }
+}
