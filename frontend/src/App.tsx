@@ -1,4 +1,6 @@
 import React, { useState, useCallback } from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { EditorComponent, TextSelection } from './components/EditorComponent';
 import { AIPromptInterface } from './components/AIPromptInterface';
 import { ErrorBoundary } from './components/ErrorBoundary';
@@ -11,6 +13,7 @@ const App: React.FC = () => {
   const [isProcessing, setIsProcessing] = useState(false);
   const [aiResult, setAiResult] = useState<string | undefined>();
   const [error, setError] = useState<string | undefined>();
+  const [viewMode, setViewMode] = useState<'edit' | 'preview' | 'split'>('split');
 
   // Collaboration removed: no WebSocket connection
 
@@ -95,15 +98,57 @@ const App: React.FC = () => {
       <div className="app">
         <header className="app-header">
           <h1>Realtime Document Editor</h1>
-          <div className="app-status" />
+          <div className="app-status">
+            <div className="toggle-group" role="tablist" aria-label="View mode">
+              <button
+                className={`toggle-button ${viewMode === 'edit' ? 'active' : ''}`}
+                onClick={() => setViewMode('edit')}
+                role="tab"
+                aria-selected={viewMode === 'edit'}
+              >
+                Edit
+              </button>
+              <button
+                className={`toggle-button ${viewMode === 'preview' ? 'active' : ''}`}
+                onClick={() => setViewMode('preview')}
+                role="tab"
+                aria-selected={viewMode === 'preview'}
+              >
+                Preview
+              </button>
+              <button
+                className={`toggle-button ${viewMode === 'split' ? 'active' : ''}`}
+                onClick={() => setViewMode('split')}
+                role="tab"
+                aria-selected={viewMode === 'split'}
+              >
+                Split
+              </button>
+            </div>
+          </div>
         </header>
 
         <main className="app-main">
-          <EditorComponent
-            content={content}
-            onContentChange={handleContentChange}
-            onSelectionChange={handleSelectionChange}
-          />
+          <div className={`editor-preview-container ${viewMode}`}>
+            {viewMode !== 'preview' && (
+              <div className="editor-pane" aria-label="Markdown editor">
+                <EditorComponent
+                  content={content}
+                  onContentChange={handleContentChange}
+                  onSelectionChange={handleSelectionChange}
+                />
+              </div>
+            )}
+            {viewMode !== 'edit' && (
+              <div className="preview-pane" aria-label="Markdown preview">
+                <div className="markdown-body">
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    {content}
+                  </ReactMarkdown>
+                </div>
+              </div>
+            )}
+          </div>
         </main>
 
         <AIPromptInterface
